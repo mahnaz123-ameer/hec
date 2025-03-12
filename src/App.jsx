@@ -1,12 +1,11 @@
-import React, { lazy, Suspense } from "react";
-import { Routes, Route, Navigate } from "react-router-dom";
-import Allroutes from "./routes/Allroutes";
+import React from "react";
+import AllRoutes from "../src/routes/Allroutes"; // Import AllRoutes
 
 function App() {
   return (
-    <main className="App relative h-full">
-      <Allroutes />
-    </main>
+    <div className="App">
+      <AllRoutes /> 
+    </div>
   );
 }
 
